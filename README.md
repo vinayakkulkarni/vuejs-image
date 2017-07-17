@@ -1,9 +1,9 @@
 # Vue Image :zap:
 
-+ This is [on GitHub](https://github.com/vinayakkulkarni/vue-image)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :cheers:
++ This is [on GitHub](https://github.com/vinayakkulkarni/vue-image)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
 ### :white_check_mark: Install :ok_hand:
-``` npm i vue-flashcard```
+``` npm i vuejs-image```
 
 ### :white_check_mark: Usage :mortar_board:
 - Add it to your component  :tada:
