@@ -1,7 +1,7 @@
 <template>
   <div class="ui form">
     <div class="field">
-      <div v-if="!image">
+      <div v-if="!local_image">
         <img 
           src="https://placehold.it/180x180" 
           v-bind:alt="alt"
@@ -12,7 +12,7 @@
       </div>
       <div v-else>
         <img 
-          :src="image" 
+          :src="local_image" 
           :alt="alt"
           :style="{'max-width': maxWidth, 'max-height': maxHeight, 'padding-bottom': paddingBottom}" 
           class="ui image" />
@@ -25,10 +25,14 @@
 export default {
   data() {
     return {
-      image: '',
+      local_image: this.image,
     }
   }, 
   props: {
+    image: {
+      type: String,
+      default: ''
+    },
     id: {
       type: String,
       default: 'name'
@@ -67,11 +71,13 @@ export default {
       let t = this;
 
       reader.onload = (e) => {
-        t.image = e.target.result;
+        t.local_image = e.target.result;
+        t.$emit('loadImage', e.target.result);
       };
       reader.readAsDataURL(file);
     },
     removeImage (e) {
+      this.local_image = '';
       this.image = '';
     }
   }

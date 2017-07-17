@@ -9,7 +9,7 @@
 - Add it to your component  :tada:
 
 ```javascript
-import vueImage from 'vue-image';
+import vueImage from 'vuejs-image';
 
 export default {
 
@@ -22,10 +22,11 @@ components : { vueImage }
 
 ```html
 <vue-image 
-alt="Alt Text for the Image" 
-name="name"
-maxWidth="100px"
-maxHeight="100px">
+	alt="Alt Text for the Image" 
+	name="name"
+	maxWidth="100px"
+	maxHeight="100px"
+	@loadImage="localVariable">
 </vue-image>
 ```
 ### :white_check_mark: :book: Props: 
@@ -35,6 +36,9 @@ maxHeight="100px">
 + `maxWidth` (Max Width for Image Container)  [default: "200px"]
 + `maxHeight` (Max Height for Image Container)  [default: "200px"]
 + `paddingBottom` (Padding Bottom between Image and Button) [default: "5px"]
+
+### :white_check_mark: :ear: Listener: 
++ `loadImage` (load the base64 to your custom component's variable) [default: ""]
 
 ## NPM :octocat:  
 
