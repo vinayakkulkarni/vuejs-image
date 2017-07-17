@@ -35,3 +35,7 @@ maxHeight="100px">
 + `maxWidth` (Max Width for Image Container)  [default: "200px"]
 + `maxHeight` (Max Height for Image Container)  [default: "200px"]
 + `paddingBottom` (Padding Bottom between Image and Button) [default: "5px"]
+
+## NPM :octocat:  
+
+[![NPM](https://nodei.co/npm/vuejs-image.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vuejs-image/)
