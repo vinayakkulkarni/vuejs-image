@@ -12,9 +12,17 @@
 import vueImage from 'vuejs-image';
 
 export default {
-
-components : { vueImage }
-
+	components : { vueImage },
+	data() : {
+		return {
+			image: ''
+		},
+	},
+	methods: {
+		localVariable(imageSentFromComponent) {
+			this.image = imageSentFromComponent;
+		}
+	}
 }
 ```
 
@@ -38,7 +46,7 @@ components : { vueImage }
 + `paddingBottom` (Padding Bottom between Image and Button) [default: "5px"]
 
 ### :white_check_mark: :ear: Listener: 
-+ `loadImage` (load the base64 to your custom component's variable) [default: ""]
++ `loadImage` (load the base64 to your custom component's variable (see example)) [default: ""]
 
 ## NPM :octocat:  
 
