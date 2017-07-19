@@ -38,8 +38,8 @@ export default {
 </vue-image>
 ```
 ### :white_check_mark: :book: Props: 
-+ `id` (ID for html `input`) [default: "name"]
-+ `name` (ID for html `input`) [default: "name"]
++ `id` (ID attribute for html `input`) [default: "name"]
++ `name` (name attribute for html `input`) [default: "name"]
 
 + `maxWidth` (Max Width for Image Container)  [default: "200px"]
 + `maxHeight` (Max Height for Image Container)  [default: "200px"]
