@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/vuejs-image.svg)]() [![npm](https://img.shields.io/npm/dt/vuejs-image.svg)]() [![npm](https://img.shields.io/npm/dw/vuejs-image.svg)]() 
 # Vue Image :zap:
 
 + This is [on GitHub](https://github.com/vinayakkulkarni/vue-image)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
