@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import VueImage from './VueImage.vue'
+import VuejsImage from './VuejsImage.vue'
 
 new Vue({
   el: '#app',
-  render: h => h(VueImage)
+  render: h => h(VuejsImage)
 })

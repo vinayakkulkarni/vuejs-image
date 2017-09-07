@@ -23,6 +23,7 @@
 </template>
 <script>
 export default {
+  name: 'vuejs-image',
   data() {
     return {
       local_image: this.image,
