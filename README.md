@@ -3,6 +3,8 @@
 
 + This is [on GitHub](https://github.com/vinayakkulkarni/vue-image)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
++ This uses Semantic-UI classes in some cases, so you might want to use this plugin with Semantic-UI. For a framework independent plugin visit [v-image](https://github.com/vinayakkulkarni/v-image/)
+
 ### :white_check_mark: Install :ok_hand:
 ``` npm i vuejs-image```
 
